@@ -1,9 +1,9 @@
 import React from 'react'
-import '../App.scss'
-import Navbar from '../components/Navbar'
+import '../../styles/RootLayout.scss'
+import Navbar from '../Navbar'
 import { Outlet } from 'react-router-dom'
 
-const Root = () => {
+const RootLayout = () => {
   return (
     <>
         
@@ -13,4 +13,4 @@ const Root = () => {
   )
 }
 
-export default Root
+export default RootLayout
