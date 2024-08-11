@@ -1,11 +1,10 @@
 import React from 'react'
 import Auth from '../../components/auth/Auth'
 
-const Login = () => {
-
+const Register = () => {
   return (
-    <Auth title={'Login'} />
+    <Auth title={'Register'} isRegister />
   )
 }
 
-export default Login
+export default Register
